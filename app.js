@@ -10,11 +10,12 @@ const app = express();
 app.use(bodyParser.json());
 
 // MySql
+
 const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: 'rootpass',
-  database: 'node20_mysql'
+  host: 'us-cdbr-east-06.cleardb.net',
+  user: 'be6e71c3d14d08',
+  password: '08b8c58e',
+  database: 'heroku_5449df91db1eed4'
 });
 
 // Route
